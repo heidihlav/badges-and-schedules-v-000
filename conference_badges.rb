@@ -1,16 +1,12 @@
 # Write your code here.
 def badge_maker(name)
-  # name = "Arel"
   "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
-  # badges = []
   names.map do |name|
     badge_maker(name)
-    # badges << "Hello, my name is #{names}."
   end
-    # badges
 end
 
 def assign_rooms(speakers)
